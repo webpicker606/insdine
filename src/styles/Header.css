@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    width: 100vw;
+    height: 80px;
+    justify-content: space-around;
+    padding: 1em;
+    background-color:#222222;
+}
+.logo{
+    width: auto;
+    height: 100%;
+   margin-left: 1em;
+}
+.buttons__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn{
+    margin: 1em;
+    text-decoration: none;
+    color: aliceblue;
+}
